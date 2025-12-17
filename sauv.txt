@@ -1,0 +1,70 @@
+ <!--DIV CARTE PRODUIT -->
+                <div class="w-25 bgcube card">
+                    <!--IMAGE DU PRODUIT 1-->
+                    <img src="" alt="">
+
+                    <!--NOM DE LA CARTE-->
+                    <h3>praline croustillant</h3>
+
+                    <!--DESCRIPTION DU PRODUIT-->
+                    <P>Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable
+                        délice pour les amateurs de chocolat et de fruits secs.</P>
+
+                    <!--PRIX-->
+                    <p>24$</p>
+
+                    <!--PHOSPHORICONE-->
+                    <i class="ph ph-handbag"></i>
+                </div><!--FIN DIV CARTE-->
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            <!--DIV AVIS-->
+                <div>
+
+                    <!--NOM-->
+                    <h3>Sophie</h3>
+
+                    <!--SERVICE-->
+                    <p>Coffret cadeau personnalisé</p>
+
+                    <!--5 ETOILE-->
+
+                    <nav>
+                        <ul>
+                            <i class="ph-fill ph-star"></i>
+                        </ul>
+
+                        <ul>
+                            <i class="ph-fill ph-star"></i>
+                        </ul>
+
+                        <ul>
+                            <i class="ph-fill ph-star"></i>
+                        </ul>
+
+                        <ul>
+                            <i class="ph-fill ph-star"></i>
+                        </ul>
+
+                        <ul>
+                            <i class="ph-fill ph-star"></i>
+                        </ul>
+                    </nav>
+
+                    <!--AVIS-->
+                    <p>Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient
+                        variées et originales, et la présentation était très soignée. Un grand merci au Palais du
+                        Chocolat pour ce cadeau parfait.</p>
+                </div>  <!--FIN DIV AVIS-->

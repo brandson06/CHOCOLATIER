@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
 
 
 /* ------------ LES CLASSES FLEX BOX --------------*/
@@ -29,6 +34,7 @@ justify-content:space-around;
 justify-content:space-evenly;
 }
  
+
 .justify-center {
 justify-content:center;
 }
@@ -36,6 +42,8 @@ justify-content:center;
 .flex-end {
 justify-content:flex-end;
 }
+
+.inlig
  
 .flex-start {
 justify-content:flex-start;
@@ -49,6 +57,10 @@ align-items:center;
  
 .align-end{
 align-items:end;
+}
+
+.align-flex{
+    align-items: flex-end;
 }
 
 /* Gap */
@@ -76,7 +88,9 @@ gap:20px;
 
 /*----------LES CLASSE DE LARGEUR---------*/
 
-
+.w25{
+    width: 25%;
+}
 .W100 {
     width: 100px;
 }
@@ -103,6 +117,14 @@ gap:20px;
 
 .w10 {
     width: 10%;
+}
+
+.w15{
+    width: 15%;
+}
+
+.w50{
+    width: 50%;
 }
 
 /*  HEADER  */
@@ -132,18 +154,81 @@ header ul {
 
 }
 
-.marginTop {
+.marginTop20 {
     margin-top: 20px;
 }
-*
+
 
 .marginTop100{
     margin-top: 100px;
 }
 
-.bgcube {
-    background-color: rgba(255, 255, 255, 0.525);
-    height: 250px;
-    border-radius: 25px;
+.marginTop70{
+    margin-top: 70px;
 }
 
+.bgcube {
+    background-color: rgba(255, 255, 255, 0.247);
+    border-color: black;
+    
+}
+
+.textAlign{
+    text-align: center;
+}
+
+.padding20{
+    padding: 20px;
+}
+
+
+
+.bgcube {
+    background-color: rgba(71, 32, 0, 0.082);
+    border-color: black;
+}
+
+.card {
+    
+    border-color: rgba(0, 0, 0, 0.128);
+    padding: 25px;
+}
+
+.entete{
+    background-color: rgba(255, 255, 255, 0.655);
+    width: 45%;
+    border-radius: 32px;
+}
+
+
+
+
+.sticky{
+    position: sticky;
+    left: 0;
+}
+
+
+footer{
+    background-image: url(asset/Contact\ Section.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+}
+
+
+.colorwhite{
+    color: white;
+}
+
+.textalign{
+    text-align: center;
+}
+.center {
+width: 300px; 
+text-align: center; 
+        }
+
+        
+        
