@@ -53,8 +53,8 @@ align-items:end;
 
 /* Gap */
  
-.gap12 {
-gap:12px;
+.gap20 {
+gap:20px;
 }
 
 .gap40{
@@ -127,8 +127,23 @@ gap:12px;
    
 }
 
+header ul {
+    list-style: none;
 
-.nodeco {
-    text-decoration: none;
-    list-style-type: none;
 }
+
+.marginTop {
+    margin-top: 20px;
+}
+*
+
+.marginTop100{
+    margin-top: 100px;
+}
+
+.bgcube {
+    background-color: rgba(255, 255, 255, 0.525);
+    height: 250px;
+    border-radius: 25px;
+}
+
