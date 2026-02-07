@@ -80,6 +80,14 @@ fetch('chocolatier.json')
 
                     <!--PHOSPHORICONE-->
                     <i class="ph ph-handbag"></i>
+
+                    <section>
+                    <h3>L’ART DU PALAIS DU CHOCOLAT</h3>
+
+                    <div class="flex" id="produit">
+                    </div>
+
+        </section>
                 </div><!--FIN DIV CARTE-->
     `
 
@@ -133,14 +141,15 @@ fetch('chocolatier.json')
 
 
 
-             //l'afficher dans mon html via ma section et injecter les element dans mon html
-            data.listeBeneficesClients.forEach(benefice =>{
-                document.getElementById("listeBeneficesClients").innerHTML += `
-             <div>
-                <p>${benefice}</p>
-            </div>`
-            })
-            
+
+        fetch('chocolatier.json')
+ .then(response => response.json())
+ .then(data => {
+   data.listeBeneficesClients.forEach(benefice => {
+       document.getElementById("listeBeneficesClients").innerHTML += `<li>${benefice}</li>`;
+   });
+ });
+
             
      
 
